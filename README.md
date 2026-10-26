@@ -149,17 +149,6 @@ These results apply only to the available public-sample evaluation. They are not
 - Expand tests for additional evidence formats and edge cases.
 - Improve per-request explanations and evidence provenance where the output contract permits.
 
-## Repository Artifacts
-
-Depending on what you choose to publish, the repository may contain:
-- `code/` — implementation, tests, and evaluation utilities.
-- `output.csv` — generated predictions, if permitted by the challenge rules.
-- `code.zip` — packaged source artifact.
-- `log.txt` — development/audit transcript, if appropriate to publish.
-- `code/evaluation/` — evaluation and usage reports.
-
-Do not commit private datasets, hidden test cases, credentials, local environment folders, or restricted challenge materials. Review the hackathon rules before publishing challenge-derived files.
-
 ## Acknowledgement
 
 Built as a project for the **HackerRank Orchestrate AI Hackathon**.
